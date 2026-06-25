@@ -1,17 +1,17 @@
-
-import java.time.LocalDate;
-import java.time.Period;
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package persona;
+
+import java.time.LocalDate;
+import java.time.Period;
 
 /**
  *
  * @author USER
  */
-public class persona {
+public class Personas {
     //Atributos 
     private String Nombre_Completo;
     private LocalDate Fecha_Nacimiento;
@@ -35,7 +35,7 @@ public class persona {
         this.Nombre_Completo = Nombre_Completo;
     }
     //Metodo Constructor
-    public persona(String Nombre_Completo, LocalDate Fecha_Nacimiento, String Telefono) {
+    public Personas(String Nombre_Completo, LocalDate Fecha_Nacimiento, String Telefono) {
         this.Nombre_Completo = Nombre_Completo;
         this.Fecha_Nacimiento = Fecha_Nacimiento;
         this.Telefono = Telefono;
