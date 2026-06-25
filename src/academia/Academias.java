@@ -8,7 +8,7 @@ import deporte.Categoria;
 
 /**
  *
- * @author USER
+ * @author USER 
  */
 public class Academias {
     //Atributos
