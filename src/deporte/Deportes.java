@@ -43,6 +43,7 @@ public class Deportes {
     
     @Override
     public String toString(){
-        return "Futbol"+this.Futbol+ "\nBaloncesto"+ Baloncesto+ "\nVoleibol"+Voleibol+"\nCapacidad Maxima"+capacidadMaxima;
+        return "Futbol"+this.getFutbol()+ "\nBaloncesto"+ this.getBaloncesto()+ "\nVoleibol"+this.getVoleibol()+
+                "\nCapacidad Maxima"+this.getCapacidadMaxima();
     }
 }
